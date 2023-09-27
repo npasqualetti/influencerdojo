@@ -6,8 +6,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: '',
-  description: 'Search 100K+curated leads from over 15M+ TikTok, Youtube, and Instagram profiles.',
+  title: 'Influencer Dojo',
+  description: 'Search 100K+ curated and weekly updated leads from over 15M+ TikTok, Youtube, and Instagram profiles.',
   icons: '/logo.png'
 }
 

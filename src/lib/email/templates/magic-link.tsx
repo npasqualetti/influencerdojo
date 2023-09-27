@@ -25,6 +25,14 @@ export const MagicLinkEmail = ({
     <Body style={main}>
       <Container style={container}>
         <Section style={box}>
+          <Tailwind>
+            <Img
+              width={"42px"}
+              height={"42px"}
+              className="rounded-md"
+              src="https://www.influencerdojo.com/assets/logo.png"
+            />
+          </Tailwind>
           <Text style={paragraph}>
             {
               "Here is the sign-in link you requested. If you do not have an account, one will be created for you."

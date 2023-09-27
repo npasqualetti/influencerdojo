@@ -6,9 +6,9 @@ export const resend = new Resend(serverEnv.RESEND_SECRET);
 
 export async function sendMagicLinkEmail(to: string, signInLink: string) {
     const data = await resend.emails.send({
-        from: 'onboarding@resend.dev',
+        from: 'no-reply@influencerdojo.com',
         to: [to],
-        subject: 'Welcome!',
+        subject: 'Welcome to Influencer Dojo!',
         react: MagicLinkEmail({ signInLink: signInLink, sentTo: to }),
     });
 }
