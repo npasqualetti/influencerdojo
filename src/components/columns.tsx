@@ -114,6 +114,22 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
+          Verified Email
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },    
+    accessorKey: "verified",
+  },
+  {
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => {
+            column.toggleSorting(column.getIsSorted() === "asc");
+          }}
+        >
           Tags
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>

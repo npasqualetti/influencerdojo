@@ -114,6 +114,16 @@ export function Header() {
                   {theme == "light" ? <Sun size={16} /> : <Moon size={16} />}
                 </Toggle>
               )}
+              <Link href={"https://demo.influencerdojo.com"}>
+                <Button
+                  className="rounded-full gap-2"
+                  variant="ghost"
+                  size="sm"
+                >
+                  Demo
+                  <ChevronRightCircle size={16} />
+                </Button>
+              </Link>
               <Link href={"/auth"}>
                 <Button
                   className="rounded-full gap-2"

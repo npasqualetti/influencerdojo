@@ -6,8 +6,9 @@ import PeopleDataTable from "@/components/data-table";
 import { columns } from "@/components/columns";
 import { people } from "@/data/people"
 import useUserSubscription from "@/lib/hooks/use-user-subscription"
+import { getSignedInUser } from "@/lib/auth/helper";
 
-export default function Home() {
+export default async function Home() {
   function getData(name, session) { 
     if (session?.user?.role == "Guest") {
       return people
@@ -23,9 +24,11 @@ export default function Home() {
       }
     }
   }
-  const subscription = useUserSubscription()
+  const subscription = await useUserSubscription()
   const subscriptionName = subscription?.subscriptions[0]?.name
-  const data = getData(subscriptionName, {})
+  const session = await getSignedInUser();
+  const data = getData(subscriptionName, session)
+
   return (
     <>
       <main className='min-h-screen'>
