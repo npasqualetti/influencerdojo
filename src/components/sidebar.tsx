@@ -30,7 +30,6 @@ import { useTheme } from "next-themes";
 import { useState } from "react";
 import { SidebarItem } from "./sidebar-item";
 import useHasMounted from "@/lib/hooks/use-has-mounted";
-import useUserSubscription from "@/lib/hooks/use-user-subscription";
 
 export default function Sidebar({ session }: { session: Session }) {
   const [menu, setMenu] = useState(false);
@@ -57,7 +56,7 @@ export default function Sidebar({ session }: { session: Session }) {
         </Toggle>
       )}
       <div className="sm:hidden flex justify-between w-full px-4 py-6 relative">
-        <Link href={"/dashboard"}>
+        <Link href={"/"}>
           <img src="/logo.png" className="w-10 h-10 rounded-full" />
         </Link>
         <button onClick={() => setMenu(!menu)}>
@@ -69,12 +68,7 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<Home size={18} />}
                 title="Dashboard"
-                href="/dashboard"
-              />
-              <SidebarItem
-                icon={<Settings size={18} />}
-                title="Settings"
-                href="/dashboard/settings"
+                href="/"
               />
             </div>
           </div>
@@ -85,7 +79,7 @@ export default function Sidebar({ session }: { session: Session }) {
         <div className="flex flex-col justify-between min-h-screen border-r border-zinc-200 dark:border-zinc-800">
           <div className="flex flex-col ">
             <div className="h-16 px-6 grid items-center border-b border-zinc-200 dark:border-zinc-800">
-              <Link href={"/dashboard"}>
+              <Link href={"/"}>
                 <img src="/logo.png" className="w-10 h-10 rounded-full" />
               </Link>
             </div>
@@ -93,12 +87,7 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<Home size={18} />}
                 title="Dashboard"
-                href="/dashboard"
-              />
-              <SidebarItem
-                icon={<Settings size={18} />}
-                title="Settings"
-                href="/dashboard/settings"
+                href="/"
               />
             </div>
           </div>
@@ -106,21 +95,11 @@ export default function Sidebar({ session }: { session: Session }) {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <div className="px-2 flex justify-between duration-150 items-center gap-2 dark:hover:bg-zinc-800 hover:bg-zinc-200/70 rounded-md cursor-pointer">
-                  {(session.user.image?.length ?? 0) > 0 ? (
                     <img
-                      src={"" + session.user.image}
+                      src={"/logo.png"}
                       className="w-8 h-8 rounded-full"
                     />
-                  ) : (
-                    <GradientBorder className="rounded-full w-fit">
-                      <div className="w-8 h-8 shrink-0 grid place-items-center text-white">
-                        <p className="font-medium">
-                          {session.user?.email?.substring(0, 1)}
-                        </p>
-                      </div>
-                    </GradientBorder>
-                  )}
-                  <p className="truncate text-sm">{session.user.email}</p>
+                  <p className="truncate text-sm">{session?.user?.email}</p>
                   <ChevronsUpDown size={16} />
                 </div>
               </DropdownMenuTrigger>
@@ -128,10 +107,7 @@ export default function Sidebar({ session }: { session: Session }) {
                 <DropdownMenuLabel>Account</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
-                  <Link href={"/dashboard/settings"}>Settings</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <button onClick={() => signOut()}>Log out</button>
+                  <Link href={"https://www.influencerdojo.com"}>Home Page</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

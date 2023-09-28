@@ -26,7 +26,7 @@ export function downloadToExcel(selected) {
           { label: "Last Update", value: "lastupdate" },
           { label: "Last Video", value: "lastvideo" },
         ],
-        content: originalObjects.slice(0,10),
+        content: originalObjects,
       },
     ];
     
