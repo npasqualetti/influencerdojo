@@ -30,7 +30,7 @@ export const MagicLinkEmail = ({
               width={"42px"}
               height={"42px"}
               className="rounded-md"
-              src="https://www.influencerdojo.com/assets/logo.png"
+              src="https://www.influencerdojo.com/logo.png"
             />
           </Tailwind>
           <Text style={paragraph}>

@@ -133,19 +133,6 @@ export default function Sidebar({ session }: { session: Session }) {
                 <DropdownMenuItem>
                   <button onClick={() => signOut()}>Log out</button>
                 </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                  {session.user.role == Role.ADMIN ? (
-                    <Link href={"/dashboard/admin"}>Admin</Link>
-                  ) : (
-                    <p className="flex w-full items-center justify-between gap-2">
-                      Admin{" "}
-                      <p className="text-xs text-rose-500 bg-rose-400/20 px-2 py-1 rounded-md">
-                        NO PERMISSION
-                      </p>
-                    </p>
-                  )}
-                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
