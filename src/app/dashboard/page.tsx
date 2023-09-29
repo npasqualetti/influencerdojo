@@ -3,7 +3,7 @@
 "use client";
 import { people } from "@/data/people"
 
-export default async function Home() {
+export default function Home() {
 
   return (
     <>
