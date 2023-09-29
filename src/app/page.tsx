@@ -8,7 +8,6 @@ import { Testimonial } from "@/components/testimonial";
 import { CTA } from "@/components/cta";
 import { PricingTable } from "@/components/pricing-table";
 import { getCompletedPlans } from "@/lib/billing";
-import Image from 'next/image'
 
 export default async function Home() {
   const plans = await getCompletedPlans();
@@ -23,11 +22,11 @@ export default async function Home() {
       <Hero />
       <div className={"relative z-10"}>
         <div className="max-w-7xl z-10 border border-white/30 m-auto p-4 sm:p-8 bg-white/20 w-full rounded-3xl">
-          <Image
+          <img
             src="/assets/billing.png"
             className="rounded-xl bg-black p-4 z-10"
             alt="Hero Image"
-          ></Image>
+          />
         </div>
         <div className="top-20 bottom-20 w-full bg-gradient-conic from-rose-500 via-violet-400 to-amber-500 absolute z-[-1]" />
       </div>

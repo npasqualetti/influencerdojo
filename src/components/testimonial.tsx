@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export function Testimonial () {
     return (
       <div id="case-study">
@@ -10,7 +8,7 @@ export function Testimonial () {
             </p>
             <div className="flex flex-row items-start gap-8 flex-wrap sm:flex-nowrap">
               <div className="shrink-0">
-                <Image src="/cita.svg" className="h-20 w-20" alt="Testimonial Image"/>
+                <img src="/cita.svg" className="h-20 w-20" alt="Testimonial Image"/>
               </div>
               <div className="flex flex-col w-full">
                 <p className="text-2xl font-medium pb-4">

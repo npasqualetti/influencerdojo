@@ -1,7 +1,6 @@
 // @ts-nocheck
 
 import Link from 'next/link';
-import Image from 'next/image'
 import {
   Github,
   GithubIcon,
@@ -20,7 +19,7 @@ export function Footer() {
       <div className='grid gap-x-8 gap-y-12 sm:grid-cols-5'>
         <div className='col-span-2 flex flex-col gap-6'>
           <Link href='/'>
-            <Image src='/logo.png' className='h-10 w-10 rounded-full' alt="Homepage Image"/>
+            <img src='/logo.png' className='h-10 w-10 rounded-full' alt="Homepage Image"/>
           </Link>
           <p className="text-sm opacity-80">© Influencer Dojo LLC. All rights reserved.</p>
         </div>

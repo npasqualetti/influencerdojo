@@ -3,7 +3,7 @@
 "use client";
 import { people } from "@/data/people"
 import PeopleDataTable from "@/components/data-table";
-import { useState, useEffect } from "react"
+import { columns } from "@/components/columns";
 export default function Home() {
 
   return (

@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/use-toast";
 import { completeOnboarding } from "../_actions/complete-onboarding-action";
-import Image from 'next/image'
 import { UploadButton } from "@/lib/uploadthing";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { User } from "@prisma/client";
@@ -60,7 +59,7 @@ export function OnboardingForm({ user }: { user: User }) {
       <p className="text-xs font-normal leading-none opacity-50">OPTIONAL</p>
       </div>
       <div className="flex items-center gap-8 pb-4">
-        <Image
+        <img
           src={
             user.image?.length
               ? user.image
