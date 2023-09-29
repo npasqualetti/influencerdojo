@@ -2,6 +2,7 @@
 
 "use client";
 import { people } from "@/data/people"
+import PeopleDataTable from "@/components/data-table";
 
 export default function Home() {
 
