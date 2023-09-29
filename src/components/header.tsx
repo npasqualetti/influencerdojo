@@ -14,6 +14,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Toggle } from "@/components/ui/toggle";
+import Image from 'next/image'
 
 type Tab = {
   id: number;
@@ -72,7 +73,7 @@ export function Header() {
           <div className="flex items-center gap-8">
             <div className="rounded-lg">
               <Link href={"/"} className=" z-10">
-                <img src="/logo.png" className="w-10 h-10 rounded-full" />
+                <Image src="/logo.png" className="w-10 h-10 rounded-full" alt="Homepage Image"/>
               </Link>
             </div>
 

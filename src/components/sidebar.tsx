@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import Image from 'next/image'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -58,7 +58,7 @@ export default function Sidebar({ session }: { session: Session }) {
       )}
       <div className="sm:hidden flex justify-between w-full px-4 py-6 relative">
         <Link href={"/dashboard"}>
-          <img src="/logo.png" className="w-10 h-10 rounded-full" />
+          <Image src="/logo.png" className="w-10 h-10 rounded-full" alt="Influence Dojo Logo"/>
         </Link>
         <button onClick={() => setMenu(!menu)}>
           <Menu size={32} className="shrink-0" />
@@ -86,7 +86,7 @@ export default function Sidebar({ session }: { session: Session }) {
           <div className="flex flex-col ">
             <div className="h-16 px-6 grid items-center border-b border-zinc-200 dark:border-zinc-800">
               <Link href={"/dashboard"}>
-                <img src="/logo.png" className="w-10 h-10 rounded-full" />
+                <Image src="/logo.png" className="w-10 h-10 rounded-full" alt="Influence Dojo Logo"/>
               </Link>
             </div>
             <div className="flex flex-col gap-2 px-4 py-8">
@@ -107,9 +107,10 @@ export default function Sidebar({ session }: { session: Session }) {
               <DropdownMenuTrigger asChild>
                 <div className="px-2 flex justify-between duration-150 items-center gap-2 dark:hover:bg-zinc-800 hover:bg-zinc-200/70 rounded-md cursor-pointer">
                   {(session.user.image?.length ?? 0) > 0 ? (
-                    <img
+                    <Image
                       src={"" + session.user.image}
                       className="w-8 h-8 rounded-full"
+                      alt="User Image"
                     />
                   ) : (
                     <GradientBorder className="rounded-full w-fit">

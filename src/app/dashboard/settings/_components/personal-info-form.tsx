@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/use-toast";
-
+import Image from 'next/image'
 import { UploadButton } from "@/lib/uploadthing";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { User } from "@prisma/client";
@@ -63,9 +63,10 @@ export function PersonalInfo({ session }: { session: Session }) {
               </p>
 
               <div className="flex items-center gap-8">
-                <img
+                <Image
                   src={"" + session.user.image}
                   className="w-20 h-20 rounded-md"
+                  alt="Profile Picture"
                 />
                 <div className="rounded-md dark:border-zinc-800 border-zinc-200 border border-dashed px-6 py-4 text-sm">
                   <UploadButton
