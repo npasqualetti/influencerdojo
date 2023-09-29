@@ -17,8 +17,7 @@ export function Hero() {
             <p className="py-6 text-sm sm:text-base lg:text-lg max-w-[40ch]">
                 Search and export 10K+ curated leads from 15M+ TikTok, Youtube, and Instagram accounts.
             </p>
-            <div className="flex flex-col">
-              <a href="">
+            <div className="flex gap-2">
                 <Link href={"https://demo.influencerdojo.com"} rel="noopener noreferrer" target="_blank">
                   <Button
                     className="rounded-full"
@@ -52,7 +51,6 @@ export function Hero() {
                     </svg>
                   </Button>
                 </Link>
-              </a>
               <p className="mt-2">
                 Data is updated weekly. Join <span className="font-semibold">100+</span> scaling agencies
               </p>
