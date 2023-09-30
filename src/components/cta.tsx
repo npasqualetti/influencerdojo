@@ -12,7 +12,6 @@ export function CTA() {
           </p>
         </div>
           <div className="flex justify-center py-20">
-            <a href="/auth/sign-in">
             <Link href={"https://www.influencerdojo.com/auth/sign-in/"}>
               <Button 
                 className="rounded-full ml-2"
@@ -36,7 +35,6 @@ export function CTA() {
                 </svg>
               </Button>
             </Link>
-          </a>
       </div>
     </div>
   

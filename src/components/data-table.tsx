@@ -86,10 +86,8 @@ export function PeopleDataTable<TData, TValue>({
           className="max-w-sm"
         />
         <DropdownMenu>
-          <DropdownMenuTrigger className="ml-4">
-            <Button variant="outline">
-              Columns
-            </Button>
+          <DropdownMenuTrigger className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-10 px-4 py-2 ml-4">
+            Columns
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             {table
@@ -111,7 +109,7 @@ export function PeopleDataTable<TData, TValue>({
               })}
           </DropdownMenuContent>
         </DropdownMenu>
-                <Button onClick={() => downloadToExcel(table.getSelectedRowModel().rows)} className="ml-4">
+        <Button onClick={() => downloadToExcel(table.getSelectedRowModel().rows)} className="ml-4">
           Export to Excel
         </Button>
       </div>

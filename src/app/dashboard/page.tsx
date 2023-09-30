@@ -4,6 +4,9 @@
 import { people } from "@/data/people"
 import PeopleDataTable from "@/components/data-table";
 import { columns } from "@/components/columns";
+import { useEffect, useState } from "react";
+
+
 export default function Home() {
 
   return (

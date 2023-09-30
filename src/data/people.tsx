@@ -2,7 +2,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -18,7 +18,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -34,7 +34,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -50,7 +50,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -66,7 +66,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -82,7 +82,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -98,7 +98,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -114,7 +114,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -130,7 +130,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -146,7 +146,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -162,7 +162,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -178,7 +178,7 @@ export const people = [
   {
     id: 1,
     channel: "Kitti",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",
@@ -194,7 +194,7 @@ export const people = [
   {
     id: 13,
     channel: "ni",
-    description: "Ritchard Ritchard Ritchard Ritchard RitchardRitchardRitchard Ritchard Ritchard Ritchard Ritchard RitchardRitchard RitchardRitchardRitchard Ritchard",
+    description: "Ritchard",
     email: "kritchard0@ucla.edu",
     verified: "True",
     tags: "Female",

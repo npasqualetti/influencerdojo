@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ChevronRightCircle } from "lucide-react";
+import { ChevronRightCircle, Server } from "lucide-react";
 
 export function Hero() {
     return (
@@ -17,41 +17,18 @@ export function Hero() {
             <p className="py-6 text-sm sm:text-base lg:text-lg max-w-[40ch]">
                 Search and export 10K+ curated leads from 15M+ TikTok, Youtube, and Instagram accounts.
             </p>
-            <div className="flex gap-2">
-                <Link href={"https://demo.influencerdojo.com"} rel="noopener noreferrer" target="_blank">
-                  <Button
-                    className="rounded-full"
-                    variant="ghost"
-                    size="sm"
-                  >
-                    Demo
-                    <ChevronRightCircle className="ml-2" size={16} />
-                  </Button>
-                </Link>
-                <Link href={"https://www.influencerdojo.com/auth/sign-in/"}>
-                  <Button 
-                    className="rounded-full ml-2"
-                    variant="ghost"
-                    size="sm"
-                  >
-                    Sign Up
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={16}
-                      height={16}
-                      viewBox="0 0 24 24"
-                      fill="black"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-zap ml-2"
-                    >
-                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                    </svg>
-                  </Button>
-                </Link>
-              <p className="mt-2">
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-row gap-2">
+                <Button className="inline-flex font-display items-center text-sm justify-center rounded-md ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-gray-950 dark:focus-visible:ring-gray-300 text-secondary hover:bg-opacity-80 h-11 px-8 gap-2">
+                  <Link href="https://demo.influencerdojo.com" rel="noopener noreferrer" target="_blank">Try Demo</Link>
+                  <Server size={16} />
+                </Button>
+                <Button className="inline-flex font-display items-center text-sm justify-center rounded-md ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-gray-950 dark:focus-visible:ring-gray-300 text-secondary hover:bg-opacity-80 h-11 px-8 gap-2 ml-2">
+                  <Link href="/auth/sign-in">Sign Up</Link>
+                  <ChevronRightCircle size={16} />
+                </Button>
+              </div>
+              <p>
                 Data is updated weekly. Join <span className="font-semibold">100+</span> scaling agencies
               </p>
             </div>
