@@ -7,14 +7,13 @@ export function Testimonial () {
               CASE STUDY
             </p>
             <div className="flex flex-row items-start gap-8 flex-wrap sm:flex-nowrap">
-              <div className="shrink-0">
-                <img src="/assets/stockmvp.png" className="h-20 w-30" alt="Testimonial Image"/>
-              </div>
               <div className="flex flex-col w-full">
                 <p className="text-2xl font-medium pb-4">
                   <a
                     className="underline hover:text-muted duration-150 bg-gradient-to-r max-w-4xl from-violet-500 via-rose-500 to-amber-500 bg-clip-text text-transparent"
                     href="https://www.stock-mvp.com"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                   >
                     StockMVP {" "}
                   </a>

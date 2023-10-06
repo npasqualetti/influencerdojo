@@ -8,7 +8,7 @@ export function Hero() {
         <div className="grid items-center w-full">
           <div className="flex flex-col">
             <h1 className="text-4xl sm:text-5xl">
-              Scale Your Agency.
+              Scale Your Company.
               <br />
               <span className="bg-gradient-to-r max-w-4xl from-violet-500 via-rose-500 to-amber-500 bg-clip-text text-transparent">
                 Find Influencers Today.                 
