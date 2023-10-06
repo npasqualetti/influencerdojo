@@ -92,7 +92,7 @@ export function Header() {
                 </Link>
               ))}
                 <Link
-                  href="test"
+                  href="https://shocking-breadfruit-e34.notion.site/5b29295dcf4543989975bfec4949d1f0?v=c31ab442161d4d5a8f32cce1e064fe90&pvs=4"
                   rel="noopener noreferrer" 
                   target="_blank"
                   className="relative px-3 py-1.5 text-sm font-medium outline-sky-400 transition focus-visible:outline-2"

@@ -80,7 +80,7 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<Newspaper size={18} />}
                 title="Free Guides"
-                href="/test"
+                href="https://shocking-breadfruit-e34.notion.site/5b29295dcf4543989975bfec4949d1f0?v=c31ab442161d4d5a8f32cce1e064fe90&pvs=4"
               />
               <SidebarItem
                 icon={<MailCheck size={18} />}
@@ -114,7 +114,7 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<Newspaper size={18} />}
                 title="Free Guides"
-                href="/test"
+                href="https://shocking-breadfruit-e34.notion.site/5b29295dcf4543989975bfec4949d1f0?v=c31ab442161d4d5a8f32cce1e064fe90&pvs=4"
               />
               <SidebarItem
                 icon={<Settings size={18} />}

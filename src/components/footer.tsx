@@ -41,7 +41,7 @@ export function Footer() {
         <div className='flex flex-col gap-2'>
           <p className='text-sm font-medium text-neutral-600'>COMPANY</p>
           <Link
-            href='/test'
+            href="https://shocking-breadfruit-e34.notion.site/5b29295dcf4543989975bfec4949d1f0?v=c31ab442161d4d5a8f32cce1e064fe90&pvs=4"
             rel="noopener noreferrer" 
             target="_blank"
             className='text-base hover:underline'
