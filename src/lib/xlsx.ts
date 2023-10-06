@@ -13,10 +13,10 @@ export function downloadToExcel(selected) {
       {
         sheet: "Persons",
         columns: [
-          { label: "Person ID", value: "id" },
           { label: "Channel", value: "channel" },
           { label: "Description", value: "description" },
           { label: "Email", value: "email" },
+          { label: "Category", value: "category" },
           { label: "Tags", value: "tags" },
           { label: "Subscribers", value: "subscribers" },
           { label: "Videos", value: "videos" },

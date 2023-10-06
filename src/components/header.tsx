@@ -88,21 +88,20 @@ export function Header() {
                     WebkitTapHighlightColor: "transparent",
                   }}
                 >
-                  {tab.matcher("" + pathname) && (
-                    <motion.span
-                      layoutId="bubble"
-                      className="absolute inset-0 z-10 dark:bg-white/20 mix-blend-difference "
-                      style={{ borderRadius: 9999 }}
-                      transition={{
-                        type: "spring",
-                        bounce: 0.2,
-                        duration: 0.6,
-                      }}
-                    />
-                  )}
                   {tab.label}
                 </Link>
               ))}
+                <Link
+                  href="test"
+                  rel="noopener noreferrer" 
+                  target="_blank"
+                  className="relative px-3 py-1.5 text-sm font-medium outline-sky-400 transition focus-visible:outline-2"
+                  style={{
+                    WebkitTapHighlightColor: "transparent",
+                  }}
+                >
+                  Free Guides
+                </Link>
             </div>
             <div className="flex items-center gap-4 ml-auto relative">
               {mounted && (

@@ -41,6 +41,14 @@ export function Footer() {
         <div className='flex flex-col gap-2'>
           <p className='text-sm font-medium text-neutral-600'>COMPANY</p>
           <Link
+            href='/test'
+            rel="noopener noreferrer" 
+            target="_blank"
+            className='text-base hover:underline'
+            >
+            <p>Free Guides</p>
+          </Link>
+          <Link
             href='/blog'
             className='text-base hover:underline'
             >

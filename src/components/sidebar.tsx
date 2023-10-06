@@ -3,7 +3,7 @@
 import { GradientBorder } from "@/components/ui/gradient-border";
 import {
   ChevronsUpDown,
-  CreditCard,
+  Newspaper,
   Home,
   MailCheck,
   Menu,
@@ -75,7 +75,12 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<MailCheck size={18} />}
                 title="Custom Data Request"
-                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I+would+like+to+have+a+custom+data+set+for+the+following+niche%3A+Influencer+Subscribers%3A+Influencer+Location%3A+Influencer+Category%3A"
+                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I%20would%20like%20to%20have%20a%20custom%20data%20set%20for%20the%20following%20niche%3A%20Influencer%20Subscribers%3A%20Influencer%20Location%3A%20Influencer%20Category%3A"
+              />
+              <SidebarItem
+                icon={<Newspaper size={18} />}
+                title="Free Guides"
+                href="/test"
               />
               <SidebarItem
                 icon={<MailCheck size={18} />}
@@ -104,7 +109,12 @@ export default function Sidebar({ session }: { session: Session }) {
               <SidebarItem
                 icon={<MailCheck size={18} />}
                 title="Custom Data Request"
-                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I+would+like+to+have+a+custom+data+set+for+the+following+niche%3A+Influencer+Subscribers%3A+Influencer+Location%3A+Influencer+Category%3A"
+                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I%20would%20like%20to%20have%20a%20custom%20data%20set%20for%20the%20following%20niche%3A%20Influencer%20Subscribers%3A%20Influencer%20Location%3A%20Influencer%20Category%3A"
+              />
+              <SidebarItem
+                icon={<Newspaper size={18} />}
+                title="Free Guides"
+                href="/test"
               />
               <SidebarItem
                 icon={<Settings size={18} />}
