@@ -22,18 +22,18 @@ export function Footer() {
           <Link href='/'>
             <img src='/logo.png' className='h-10 w-10 rounded-full' />
           </Link>
-          <p className="text-sm opacity-80">© Acme, Inc. All rights reserved.</p>
+          <p className="text-sm opacity-80">© Influencer Dojo LLC.</p>
         </div>
         <div className='flex flex-col gap-2'>
           <p className='text-sm font-medium text-neutral-600'> PRODUCT</p>
           <Link
-            href='/#pricing'
+            href='https://www.influencerdojo.com/#pricing'
             className='text-base hover:underline'
             >
             <p>Pricing</p>
           </Link>
           <Link
-            href='/#features'
+            href='https://www.influencerdojo.com/#features'
             className='text-base hover:underline'
             >
             <p>Features</p>
@@ -42,13 +42,7 @@ export function Footer() {
         <div className='flex flex-col gap-2'>
           <p className='text-sm font-medium text-neutral-600'>COMPANY</p>
           <Link
-            href='https://discord.gg/sAcvuQACYQ'
-            className='text-base hover:underline'
-            >
-            <p>Discord</p>
-          </Link>
-          <Link
-            href='/blog'
+            href='https://www.influencerdojo.com/blog'
             className='text-base hover:underline'
             >
             <p>Blog</p>
@@ -57,13 +51,13 @@ export function Footer() {
         <div className='flex flex-col gap-2'>
           <p className='text-sm font-medium text-neutral-600'>LEGAL</p>
           <Link
-            href='/#'
+            href='https://www.influencerdojo.com/terms'
             className='text-base hover:underline'
             >
             <p>Terms of Service</p>
           </Link>
           <Link
-            href='/#'
+            href='https://www.influencerdojo.com/privacy'
             className='text-base hover:underline'
             >
             <p>Privacy Policy</p>
