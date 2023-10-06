@@ -21,14 +21,14 @@ export function Testimonial () {
                   scaled using Influencer Dojo.
                 </p>
                 <p className="pb-2 max-w-[70ch]">
-                Influencer Dojo has been pivotal to our success. With access to over 10,000 curated leads, our engagement rates soared, resulting in a remarkable 40% increase in ROI. It's become an indispensable tool for streamlining influencer discovery, helping us make more informed decisions and driving our marketing efforts to new heights.
+                Influencer Dojo has been pivotal to our success. With access to over 10,000 curated leads, our engagement rates soared, resulting in a remarkable 40% increase in ROI. It&aposs become an indispensable tool for streamlining influencer discovery, helping us make more informed decisions and driving our marketing efforts to new heights.
                 </p>
               </div>
             </div>
             <div className="flex flex-col">
               <p className="max-w-[70ch] pb-4">
                 Using our database, StockMVP was able to build, test, and
-                start an email campaign within one week. Here's why StockMVP
+                start an email campaign within one week. Here&aposs why StockMVP
                 used us to grow:
               </p>
               <div className="flex flex-col gap-2">
