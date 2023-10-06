@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { fetchSubscriptions } from "./utils";
 
 const useUserSubscription = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [subscriptions, setSubscriptions] = useState<Plan[]>([]);
 
   useEffect(() => {

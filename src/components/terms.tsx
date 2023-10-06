@@ -18,9 +18,9 @@ export function Terms () {
             <b>1.1. Scope. </b>
             <span style={{ fontWeight: 400 }}>
             These License Terms and Conditions are entered into by and between
-            Customer and AMAttendees.com (
+            Customer and InfluencerDojo.com (
             </span>
-            <b>“AMAttendees”</b>
+            <b>“InfluencerDojo”</b>
             <span style={{ fontWeight: 400 }}>, </span>
             <b>“we”</b>
             <span style={{ fontWeight: 400 }}>, or </span>
@@ -31,13 +31,13 @@ export function Terms () {
             </span>
             <b>“License Terms”</b>
             <span style={{ fontWeight: 400 }}>
-            ), govern (i) Customer’s access to and use of www.AMAttendees.com and
+            ), govern (i) Customer’s access to and use of www.InfluencerDojo.com and
             the content and functionality offered on or through
-            www.AMAttendees.com (collectively, the{" "}
+            www.InfluencerDojo.com (collectively, the{" "}
             </span>
             <b>“Website”</b>
             <span style={{ fontWeight: 400 }}>
-            ), and (ii) Customer’s use of AMAttendees’s proprietary, hosted
+            ), and (ii) Customer’s use of InfluencerDojo’s proprietary, hosted
             service database product and/or application programming interface
             offerings (the{" "}
             </span>
@@ -134,7 +134,7 @@ export function Terms () {
             <b>
             IMPORTANT: PLEASE REVIEW THE MUTUAL ARBITRATION AGREEMENT SET FORTH
             BELOW CAREFULLY, AS IT WILL REQUIRE CUSTOMER TO RESOLVE DISPUTES WITH
-            AMATTENDEES ON AN INDIVIDUAL BASIS (WAIVING CUSTOMER’S RIGHT TO A
+            InfluencerDojo ON AN INDIVIDUAL BASIS (WAIVING CUSTOMER’S RIGHT TO A
             CLASS ACTION) THROUGH FINAL AND BINDING ARBITRATION. BY ENTERING THIS
             AGREEMENT, CUSTOMER EXPRESSLY ACKNOWLEDGES THAT CUSTOMER HAS READ AND
             UNDERSTANDS ALL OF THE TERMS OF THIS MUTUAL ARBITRATION AGREEMENT AND
@@ -152,17 +152,17 @@ export function Terms () {
             The Website and all of its content, features, and functionality
             (including, but not limited to, all information, software text,
             displays, images, video, and audio, and the design and arrangement
-            thereof) are owned by AMAttendees, its licensors, or other providers
+            thereof) are owned by InfluencerDojo, its licensors, or other providers
             of such material and are all protected by copyright, trademark,
             patent, trade secret, and other intellectual property or proprietary
             rights laws. Except as otherwise required or limited by applicable
             law, any reproduction, distribution, modification, retransmission, or
             publication of any copyrighted material is strictly prohibited without
-            the express written consent of the copyright owner. AMAttendees, its
+            the express written consent of the copyright owner. InfluencerDojo, its
             logo, and all related names, logos, product and service names,
-            designs, and slogans are trademarks of AMAttendees or its affiliates
+            designs, and slogans are trademarks of InfluencerDojo or its affiliates
             or licensors. Customers must not use such marks without the prior
-            written permission of the AMAttendees. All other names, logos, product
+            written permission of the InfluencerDojo. All other names, logos, product
             and service names, designs, and slogans on this Website are the
             trademarks of their respective owners.
             </span>
@@ -187,7 +187,7 @@ export function Terms () {
             our option, return or destroy any copies of the materials Customer has
             made. No right, title, or interest in or to the Website or any content
             on the Website is transferred to Customer, and all rights not
-            expressly granted are reserved by AMAttendees. Any use of the Website
+            expressly granted are reserved by InfluencerDojo. Any use of the Website
             not expressly permitted by these License Terms is a breach of these
             License Terms and may violate copyright, trademark, and other laws.
             </span>
@@ -196,7 +196,7 @@ export function Terms () {
             <b>2.3. Jurisdiction.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            AMAttendees is based in Canada. We make no claims that the
+            InfluencerDojo is based in Canada. We make no claims that the
             Subscription Services, Product, or the Website or any of their content
             is accessible or appropriate outside of Canada. Access to the Website,
             Product, or the Subscription Services may not be legal by certain
@@ -217,7 +217,7 @@ export function Terms () {
             Customer. We will not be liable if, for any reason, all or any part of
             the Website is unavailable at any time or for any period. From time to
             time, we may restrict access to some parts of the Website, or the
-            entire Website, to users for any reason at all. AMAttendees may add
+            entire Website, to users for any reason at all. InfluencerDojo may add
             new services, features, or material for a fee and may add or amend
             fees for existing services, features, or material, at any time in our
             sole discretion. If Customer chooses to purchase the additional
@@ -271,7 +271,7 @@ export function Terms () {
                 use the Website, Product, or Subscription Services to engage in any
                 other conduct that restricts or inhibits anyone’s use or enjoyment
                 of the Website, Product, or Subscription Services, or which, as
-                determined by us in our sole discretion, may harm AMAttendees or
+                determined by us in our sole discretion, may harm InfluencerDojo or
                 users of the Website, Product, or Subscription Services or expose
                 them to liability;
             </span>
@@ -381,7 +381,7 @@ export function Terms () {
             <span style={{ fontWeight: 400 }}>
             {" "}
             Information and other content provided by third party licensors and
-            suppliers to AMAttendees (“Third Party Content”) is, in each case, the
+            suppliers to InfluencerDojo (“Third Party Content”) is, in each case, the
             copyrighted and/or trademarked work of the owner of such Third Party
             Content. Customer acknowledges and agrees that Customer has no right
             to download, cache, reproduce, modify, display, edit, alter or enhance
@@ -406,10 +406,10 @@ export function Terms () {
             {" "}
             All rights, title and interest in and to the Product and any improved,
             updated, modified or additional parts thereof, shall at all times
-            remain the property of AMAttendees or its licensors. Nothing herein
+            remain the property of InfluencerDojo or its licensors. Nothing herein
             shall give or be deemed to give Customer any right, title or interest
             in or to the same except as expressly provided in this Agreement.
-            AMAttendees reserves all rights not expressly granted herein. Subject
+            InfluencerDojo reserves all rights not expressly granted herein. Subject
             to and conditioned on Customers and Customer’s Authorized Users’
             compliance with the terms and conditions of these License Terms, We
             hereby grant Customer a non-exclusive, non-transferable license during
@@ -447,8 +447,8 @@ export function Terms () {
             </span>
             <b>“Subscription Plan(s)”</b>
             <span style={{ fontWeight: 400 }}>
-            ) that AMAttendees offers is available at
-            https://amattendees.com/#pricing. The initial term of each
+            ) that InfluencerDojo offers is available at
+            https://InfluencerDojo.com/#pricing. The initial term of each
             Subscription Plan shall be for such period that is listed in the
             purchase confirmation, receipt, agreed upon order form (“Order Form”),
             and/or the invoice Customer receives from Us (the{" "}
@@ -484,7 +484,7 @@ export function Terms () {
             Product or any copies thereof; or (v) publish or disclose the results
             of any benchmarking of the Product, or use such results for Customer’s
             own competing services development activities, without the prior
-            written permission of AMAttendees.
+            written permission of InfluencerDojo.
             </span>
         </p>
         <p>
@@ -559,15 +559,15 @@ export function Terms () {
             <b>“Data” </b>
             <span style={{ fontWeight: 400 }}>
             &nbsp;means the information or other data made available by
-            AMAttendees to Customer through the Subscription Services, including,
+            InfluencerDojo to Customer through the Subscription Services, including,
             without limitation, the personal information and/or records of
             individuals and their company affiliation that are contained on
-            AMAttendees’s database and made available to Customer through the
+            InfluencerDojo’s database and made available to Customer through the
             Subscription Services. To the extent that Customer’s use of the
             Subscription Services or Products requires us to enter into one or
             more of the SCC Agreements with Customer, such as without limitation
             when you access or download or print one copy of the materials
-            provided by AMAttendees as permitted hereunder from within a
+            provided by InfluencerDojo as permitted hereunder from within a
             jurisdiction that is not considered adequate as per the General Data
             Protection Regulation (“GDPR”) or the UK General Data Protection
             Regulation (“UK GDPR”) or equivalent data protection laws in the
@@ -610,21 +610,21 @@ export function Terms () {
             <b>3.8. Feedback.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            Customer agrees to make reasonable efforts to provide AMAttendees with
+            Customer agrees to make reasonable efforts to provide InfluencerDojo with
             oral feedback and/or written feedback related to Customer’s use of the
             Product, including, but not limited to, a report of any errors which
             Customer discovers in the Subscription Services or related
             Documentation. Such reports, and any other materials, information,
             ideas, concepts, feedback and know-how provided by Customer to
-            AMAttendees concerning the Product and any information reported
-            automatically through the Product to AMAttendees (
+            InfluencerDojo concerning the Product and any information reported
+            automatically through the Product to InfluencerDojo (
             </span>
             <b>“Feedback”</b>
             <span style={{ fontWeight: 400 }}>
-            ) will be the property of AMAttendees. Customer agrees to assign, and
+            ) will be the property of InfluencerDojo. Customer agrees to assign, and
             hereby assign, all right, title and interest worldwide in the
-            Feedback, and the related intellectual property rights, to AMAttendees
-            and agrees to assist AMAttendees, at AMAttendees’s expense, in
+            Feedback, and the related intellectual property rights, to InfluencerDojo
+            and agrees to assist InfluencerDojo, at InfluencerDojo’s expense, in
             perfecting and enforcing such rights.
             </span>
         </p>
@@ -632,14 +632,14 @@ export function Terms () {
             <b>3.9. License to Branding Elements.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            Customer hereby grants to AMAttendees a non-exclusive, royalty-free,
+            Customer hereby grants to InfluencerDojo a non-exclusive, royalty-free,
             irrevocable, and worldwide license to use Customer’s trademarks,
             service marks, trade dress, trade names, brand names, logos, corporate
             names, domain names, and other branding elements on or in connection
-            with AMAttendees’s promotional, advertising, and marketing materials
+            with InfluencerDojo’s promotional, advertising, and marketing materials
             in all formats and media, including, without limitation, on lists of
-            AMAttendees’s current or former customers and on advertisements for
-            AMAttendees and/or the Product, Subscription Services, and/or the
+            InfluencerDojo’s current or former customers and on advertisements for
+            InfluencerDojo and/or the Product, Subscription Services, and/or the
             Website.
             </span>
         </p>
@@ -671,14 +671,14 @@ export function Terms () {
             Subscription Term, Customer will no longer be able to continue
             accessing or using the Service and/or the Product at the end of such
             Subscription Term and such termination will only be effective at the
-            start of the next billing or Renewal Subscription Term. AMAttendees
+            start of the next billing or Renewal Subscription Term. InfluencerDojo
             may terminate Customer’s account and these License Terms at any time
             by providing sixty (60) days prior notice to the administrative email
             address associated with Customer’s account. In addition to any other
-            remedies AMAttendees may have, AMAttendees may also terminate these
+            remedies InfluencerDojo may have, InfluencerDojo may also terminate these
             License Terms upon ten (10) days’ notice (or two (2) days in the case
             of nonpayment), if Customer breaches any of the terms or conditions of
-            these License Terms. Customer acknowledges that AMAttendees reserves
+            these License Terms. Customer acknowledges that InfluencerDojo reserves
             the right to terminate accounts that are inactive for an extended
             period of time and the right to modify or discontinue, temporarily or
             permanently, the Subscription Services or the Product. Upon the
@@ -734,8 +734,8 @@ export function Terms () {
             <span style={{ fontWeight: 400 }}>
             {" "}
             Customer agrees that Customer will indemnify, defend and hold
-            AMAttendees harmless against any losses resulting from any third party
-            claim against AMAttendees arising out of or in connection with any
+            InfluencerDojo harmless against any losses resulting from any third party
+            claim against InfluencerDojo arising out of or in connection with any
             violation of any applicable law by Customer.
             </span>
         </p>
@@ -762,7 +762,7 @@ export function Terms () {
             <b>6.2. Disclaimer.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            EXCEPT AS EXPRESSLY SET FORTH HEREIN, AMATTENDEES, FOR ITSELF AND ITS
+            EXCEPT AS EXPRESSLY SET FORTH HEREIN, InfluencerDojo, FOR ITSELF AND ITS
             LICENSORS, MAKES NO EXPRESS, IMPLIED OR STATUTORY REPRESENTATIONS,
             WARRANTIES, OR GUARANTEES IN CONNECTION WITH THE WEBSITE, THE
             SUBSCRIPTION SERVICES, THE PRODUCT, OR ANY THIRD PARTY CONTENT,
@@ -776,7 +776,7 @@ export function Terms () {
             CUSTOMER ON AN “AS IS,” “AS AVAILABLE” AND “WHERE-IS” BASIS WITH NO
             WARRANTY OF IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A
             PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
-            AMATTENDEES DOES NOT PROVIDE ANY WARRANTIES AGAINST VIRUSES, SPYWARE
+            InfluencerDojo DOES NOT PROVIDE ANY WARRANTIES AGAINST VIRUSES, SPYWARE
             OR MALWARE THAT MAY BE INSTALLED ON CUSTOMER’S COMPUTER.
             </span>
         </p>
@@ -784,7 +784,7 @@ export function Terms () {
             <b>6.3. Exclusion of Damages.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL AMATTENDEES,
+            TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL InfluencerDojo,
             ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES,
             AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND,
             UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH
@@ -804,7 +804,7 @@ export function Terms () {
             <span style={{ fontWeight: 400 }}>
             {" "}
             TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL THE AGGREGATE
-            LIABILITY OF AMATTENDEES, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE
+            LIABILITY OF InfluencerDojo, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE
             PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS ARISING OUT OF OR
             RELATED TO THESE TERMS OF USE, WHETHER ARISING UNDER OR RELATED TO
             BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR
@@ -821,7 +821,7 @@ export function Terms () {
         <p>
             <b>7.1. Indemnification by Customer. </b>
             <span style={{ fontWeight: 400 }}>
-            Customer agrees to defend, indemnify, and hold harmless AMAttendees,
+            Customer agrees to defend, indemnify, and hold harmless InfluencerDojo,
             its affiliates, licensors, and service providers, and its and their
             respective officers, directors, employees, contractors, agents,
             licensors, suppliers, successors, and assigns from and against any
@@ -838,10 +838,10 @@ export function Terms () {
             any Authorized User; (iv) any violation of any applicable law by
             Customer; (v) access to or use of the Product by Customer or any
             Authorized User in combination with any hardware, system, software,
-            network, or other materials or service not provided by AMAttendees or
+            network, or other materials or service not provided by InfluencerDojo or
             specified for Customer’s use in the Documentation; or (vi)
-            modification of the Product other than by or on behalf of AMAttendees
-            or with AMAttendees’s prior written approval.
+            modification of the Product other than by or on behalf of InfluencerDojo
+            or with InfluencerDojo’s prior written approval.
             </span>
         </p>
         <h3>
@@ -873,7 +873,7 @@ export function Terms () {
             {" "}
             Certain portions of this Section are deemed to be a “written agreement
             to arbitrate” pursuant to the Federal Arbitration Act (“FAA”).
-            Customer and AMAttendees expressly agree and intend that this Section
+            Customer and InfluencerDojo expressly agree and intend that this Section
             satisfies the “writing” requirement of the FAA. This Section can only
             be amended by mutual agreement.
             </span>
@@ -882,19 +882,19 @@ export function Terms () {
             <b>8.3. Binding Arbitration.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            CUSTOMER AND AMATTENDEES AGREE THAT ANY DISPUTE, CONTROVERSY, OR CLAIM
+            CUSTOMER AND InfluencerDojo AGREE THAT ANY DISPUTE, CONTROVERSY, OR CLAIM
             ARISING OUT OF, OR RELATING TO CUSTOMER’S USE OF THE SUBSCRIPTION
             SERVICES, PRODUCT, AND/OR DATA UNDER THIS AGREEMENT SHALL BE RESOLVED
             ONLY BY FINAL AND BINDING ARBITRATION, except that (1) Customer may
             assert claims in small claims court within the scope of that court’s
             jurisdiction; and (2) this agreement to arbitrate does not limit
-            Customer’s or AMAttendees’s right to seek injunctive or other
+            Customer’s or InfluencerDojo’s right to seek injunctive or other
             equitable relief in state or federal court in Los Angeles County,
             California to prevent the actual or threatened infringement,
             misappropriation or violation of a party’s copyrights, trademarks,
             trade secrets, patents, or other intellectual property rights. To
             begin an arbitration proceeding, Customer must send a letter
-            requesting arbitration and describing Customer’s claim to AMAttendees
+            requesting arbitration and describing Customer’s claim to InfluencerDojo
             at . The arbitration will be conducted by JAMS in accordance with the
             JAMS Streamlined Arbitration Procedure Rules in effect at the time the
             arbitration is initiated, excluding any rules or procedures governing
@@ -920,7 +920,7 @@ export function Terms () {
             <b>8.4. Class Action Waiver.</b>
             <span style={{ fontWeight: 400 }}>
             {" "}
-            CUSTOMER AND AMATTENDEES EACH AGREE THAT ANY DISPUTE RESOLUTION
+            CUSTOMER AND InfluencerDojo EACH AGREE THAT ANY DISPUTE RESOLUTION
             PROCEEDING WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A
             CLASS, CONSOLIDATED OR REPRESENTATIVE ACTION.
             </span>
@@ -930,19 +930,19 @@ export function Terms () {
         </h3>
         <p>
             <span style={{ fontWeight: 400 }}>
-            If Customer violates these License Terms, AMAttendees may terminate
+            If Customer violates these License Terms, InfluencerDojo may terminate
             and/or suspend Customer’s access to this Website without notice.
-            AMAttendees prefers to advise Customer of Customer’s inappropriate
+            InfluencerDojo prefers to advise Customer of Customer’s inappropriate
             behavior and to recommend any necessary corrective action. However,
             certain violations of these License Terms, as determined by
-            AMAttendees, may result in immediate termination. If any of these
+            InfluencerDojo, may result in immediate termination. If any of these
             License Terms is found to be inconsistent with applicable law, then
             such term shall be interpreted to reflect the intentions of the
-            parties, and no other terms will be modified. AMAttendees’s failure to
+            parties, and no other terms will be modified. InfluencerDojo’s failure to
             enforce any of these License Terms is not a waiver of such term. These
             License Terms are the entire agreement between Customer and
-            AMAttendees and supersede all prior or contemporaneous negotiations,
-            discussions or agreements between Customer and AMAttendees about the
+            InfluencerDojo and supersede all prior or contemporaneous negotiations,
+            discussions or agreements between Customer and InfluencerDojo about the
             Website and/or the Product. Customer shall not assign or otherwise
             transfer any of Customer’s rights, or delegate or otherwise transfer
             any of Customer’s obligations or performance under these License Terms
@@ -991,7 +991,7 @@ export function Terms () {
             If Customer has any questions, comments, or concerns regarding these
             License Terms, please{" "}
             </span>
-            <a href="https://amattendees.com/contact-us">
+            <a href="https://InfluencerDojo.com/contact-us">
             <span style={{ fontWeight: 400 }}>contact us.</span>
             </a>
         </p>

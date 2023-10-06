@@ -5,6 +5,7 @@ import {
   ChevronsUpDown,
   CreditCard,
   Home,
+  MailCheck,
   Menu,
   Moon,
   Settings,
@@ -72,7 +73,12 @@ export default function Sidebar({ session }: { session: Session }) {
                 href="/dashboard"
               />
               <SidebarItem
-                icon={<Settings size={18} />}
+                icon={<MailCheck size={18} />}
+                title="Custom Data Request"
+                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I+would+like+to+have+a+custom+data+set+for+the+following+niche%3A+Influencer+Subscribers%3A+Influencer+Location%3A+Influencer+Category%3A"
+              />
+              <SidebarItem
+                icon={<MailCheck size={18} />}
                 title="Settings"
                 href="/dashboard/settings"
               />
@@ -94,6 +100,11 @@ export default function Sidebar({ session }: { session: Session }) {
                 icon={<Home size={18} />}
                 title="Dashboard"
                 href="/dashboard"
+              />
+              <SidebarItem
+                icon={<MailCheck size={18} />}
+                title="Custom Data Request"
+                href="mailto:support@influencerdojo.com?subject=Custom%20Data%20Request&body=I+would+like+to+have+a+custom+data+set+for+the+following+niche%3A+Influencer+Subscribers%3A+Influencer+Location%3A+Influencer+Category%3A"
               />
               <SidebarItem
                 icon={<Settings size={18} />}

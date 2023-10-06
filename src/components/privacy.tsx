@@ -11,7 +11,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                Welcome to www.amattendees.com (“Site”). This Privacy Policy explains
+                Welcome to www.InfluencerDojo.com (“Site”). This Privacy Policy explains
                 how we collect, use, share and protect personal information processed
                 in relation to the Site and the services that we offer (“Services”)
                 (collectively, “Platform”) and other interactions (e.g., customer
@@ -55,7 +55,7 @@ export function Privacy () {
                 Privacy Policy and/or our data practices, or would like to exercise
                 your rights, do not hesitate to contact us on our{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us/">
+                <a href="https://InfluencerDojo.com/contact-us/">
                 <span style={{ fontWeight: 400 }}>contact us page</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>.</span>
@@ -67,8 +67,8 @@ export function Privacy () {
                 <span style={{ fontWeight: 400 }}>
                 This Privacy Policy was last updated on the date indicated above. Our
                 business and/or the Platform may change from time to time, and as a
-                result, at times it may be necessary for AMAttendees to make changes
-                to this Privacy Policy. AMAttendees reserves the right to update or
+                result, at times it may be necessary for InfluencerDojo to make changes
+                to this Privacy Policy. InfluencerDojo reserves the right to update or
                 modify this Privacy Policy at any time and from time to time without
                 prior notice. However, if we make changes that we believe will
                 materially impact this Privacy Policy or your rights, we will promptly
@@ -83,7 +83,7 @@ export function Privacy () {
             </h3>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees does not knowingly collect information from children under
+                InfluencerDojo does not knowingly collect information from children under
                 the age of 16. If you are under the age of 16, please do not submit
                 any personal data through the Platform. We encourage parents and legal
                 guardians to monitor their children’s Internet usage and to help
@@ -94,9 +94,9 @@ export function Privacy () {
             <p>
                 <span style={{ fontWeight: 400 }}>
                 If you have reason to believe that a child under the age of 16 has
-                provided personal data to AMAttendees through the Platform, please{" "}
+                provided personal data to InfluencerDojo through the Platform, please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us/">
+                <a href="https://InfluencerDojo.com/contact-us/">
                 <span style={{ fontWeight: 400 }}>contact us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>
@@ -314,7 +314,7 @@ export function Privacy () {
             </h3>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees collects and compiles information about individuals with
+                InfluencerDojo collects and compiles information about individuals with
                 whom it does not have a direct relationship, but whose Business
                 Profiles are included on our Platform. This information is gathered,
                 compiled (and updated) and provided to our Customers as part of the
@@ -423,7 +423,7 @@ export function Privacy () {
                 language used to display our website. Hotjar stores this information
                 on our behalf in a pseudonymized user profile. Hotjar is contractually
                 forbidden from selling any of the information that it collects on
-                AMAttendees’s behalf.
+                InfluencerDojo’s behalf.
                 </span>
             </p>
             <p>
@@ -522,11 +522,11 @@ export function Privacy () {
                     still personal information) is widely available and distributed
                     across the internet and otherwise. The information does not concern
                     any special categories of data nor does it include personal details
-                    about individuals’ private lives. Moreover, AMAttendees provides
+                    about individuals’ private lives. Moreover, InfluencerDojo provides
                     adequate notice, access and choice (including the ability to delete
                     said Business Profile Data directly by clicking here) and technical
                     and organizational measures with respect to the Business Profile
-                    Data. As such, AMAttendees’s use of personal data as part of the
+                    Data. As such, InfluencerDojo’s use of personal data as part of the
                     Business Profile Data outweigh any prejudice to the individuals’
                     data protection rights. If we rely on our (or another person’s)
                     legitimate interests for using your personal information, we will
@@ -738,7 +738,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees discloses users’ information to our third party agents,
+                InfluencerDojo discloses users’ information to our third party agents,
                 contractors or service providers who are hired to perform services on
                 our behalf. These companies do things to help us provide the Platform,
                 and in some cases collect information directly, for example as
@@ -809,8 +809,8 @@ export function Privacy () {
                 or liquidation in bankruptcy. In order to evaluate or as part of these
                 transactions, we may transfer your personal information to a successor
                 entity upon a merger, consolidation or other corporate reorganization
-                in which AMAttendees participants, or to a purchaser or acquirer of
-                all or a portion of AMAttendees’s assets, bankruptcy included.
+                in which InfluencerDojo participants, or to a purchaser or acquirer of
+                all or a portion of InfluencerDojo’s assets, bankruptcy included.
                 </span>
             </p>
             <p>
@@ -833,7 +833,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                In addition, AMAttendees will preserve or disclose your personal
+                In addition, InfluencerDojo will preserve or disclose your personal
                 information in limited circumstances (other than as set forth in this
                 Privacy Policy), including: (i) with your consent; (ii) when we have a
                 good faith belief it is required by law, such as pursuant to a
@@ -976,7 +976,7 @@ export function Privacy () {
                 <span style={{ fontWeight: 400 }}>
                 This Privacy Policy applies only to the Platform. The Platform may
                 contain links to other websites owned and operated by third parties –
-                and therefore not controlled by AMAttendees (“Third Party Sites”). For
+                and therefore not controlled by InfluencerDojo (“Third Party Sites”). For
                 instance, we may post YouTube videos with information about our
                 Services. To the extent that Third Party Sites collect any personal
                 data when you click on a link to their Third Party Sites, they are
@@ -995,10 +995,10 @@ export function Privacy () {
                 may collect your IP address and/or other information as set forth in
                 each social platform’s privacy policy, which page you are visiting on
                 our Site, and may set a cookie to enable the feature to function
-                properly. AMAttendees also has a presence on some social media
+                properly. InfluencerDojo also has a presence on some social media
                 platforms, including Twitter and LinkedIn. Through our accounts on
                 social media platforms, we may in some instances collect personal
-                information when you interact with the AMAttendees accounts or
+                information when you interact with the InfluencerDojo accounts or
                 otherwise communicate with us through those accounts. Any information
                 that you post on social media is governed by each social platform’s
                 privacy notices, and any personal information that we collect via our
@@ -1011,7 +1011,7 @@ export function Privacy () {
             </h3>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees does not respond to Do Not Track (“DNT”) browser signals.
+                InfluencerDojo does not respond to Do Not Track (“DNT”) browser signals.
                 For more information on DNT settings generally, please visit{" "}
                 </span>
                 <a href="https://allaboutdnt.com/">
@@ -1030,8 +1030,8 @@ export function Privacy () {
                 via the Platform. Note that you may also manage your communications
                 preferences and the receipt of any commercial communication by
                 clicking the “unsubscribe” link included at the bottom of all emails
-                from AMAttendees. You may also adjust your preferences through your
-                account settings if you have an AMAttendees account, or contact us.
+                from InfluencerDojo. You may also adjust your preferences through your
+                account settings if you have an InfluencerDojo account, or contact us.
                 </span>
             </p>
             <h3>
@@ -1054,7 +1054,7 @@ export function Privacy () {
                 You can access and change certain information through the Platform if
                 you are a Customer, or by{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contacting us.</span>
                 </a>
             </p>
@@ -1066,7 +1066,7 @@ export function Privacy () {
                 If you are a Customer, you may delete your account information at any
                 time by{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contacting us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>
@@ -1078,7 +1078,7 @@ export function Privacy () {
                 <span style={{ fontWeight: 400 }}>
                 If you would like to delete your Business Profile Data, please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>.</span>
@@ -1146,7 +1146,7 @@ export function Privacy () {
             <p>
                 <span style={{ fontWeight: 400 }}>
                 You may opt-out of receiving some or all categories of promotional
-                communications from AMAttendees by following the instructions/link
+                communications from InfluencerDojo by following the instructions/link
                 contained in those communications or, if you are a Customer, by
                 updating your email options in your account preferences. If you
                 opt-out of promotional communications, we may still send you
@@ -1190,7 +1190,7 @@ export function Privacy () {
                 <span style={{ fontWeight: 400 }}>
                 For any questions about data retention, please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us.</span>
                 </a>
             </p>
@@ -1247,7 +1247,7 @@ export function Privacy () {
                 would like to opt-out of such sales of your personal information,
                 please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>
@@ -1355,7 +1355,7 @@ export function Privacy () {
                     legal obligation as permitted under the GDPR, in which case we will
                     inform you). Note that Business Profile Data may be deleted by{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                     <span style={{ fontWeight: 400 }}>contacting us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>;</span>
@@ -1406,7 +1406,7 @@ export function Privacy () {
                 If you are located in the EEA or the U.K. and wish to exercise any of
                 the rights set out above, you may{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>
@@ -1447,13 +1447,13 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                Sometimes, AMAttendees acts as a ‘joint controller’ with certain third
+                Sometimes, InfluencerDojo acts as a ‘joint controller’ with certain third
                 parties, namely certain social media sites, such as LinkedIn. When
-                AMAttendees and a partner act as joint controllers, you (as a data
-                subject) may exercise your rights against AMAttendees and/or the third
+                InfluencerDojo and a partner act as joint controllers, you (as a data
+                subject) may exercise your rights against InfluencerDojo and/or the third
                 party. For a list of joint controller relationships, please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us.</span>
                 </a>
             </p>
@@ -1492,7 +1492,7 @@ export function Privacy () {
                 </span>
                 </a>
                 <span style={{ fontWeight: 400 }}>
-                . AMAttendees and Facebook have entered into an agreement in order to
+                . InfluencerDojo and Facebook have entered into an agreement in order to
                 determine the respective responsibilities for compliance with our
                 obligations in connection with the Joint Processing within the meaning
                 of the GDPR. This joint controller agreement, which sets out the
@@ -1558,7 +1558,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                Within the last twelve (12) months, AMAttendees has collected the
+                Within the last twelve (12) months, InfluencerDojo has collected the
                 following categories of personal information (as defined in the CCPA)
                 from or about Consumers (note that the lettered categories are
                 according to lettering in the CCPA):
@@ -1653,7 +1653,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees obtains the categories of personal information listed
+                InfluencerDojo obtains the categories of personal information listed
                 above from the following categories of sources:
                 </span>
             </p>
@@ -1694,7 +1694,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                AMAttendees may disclose your personal information to service
+                InfluencerDojo may disclose your personal information to service
                 providers for a business purpose. When we disclose personal
                 information for a business purpose, we enter into a contract that
                 describes the purpose and requires the recipient to both keep that
@@ -1707,7 +1707,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                In the preceding 12 months, AMAttendees has disclosed the following
+                In the preceding 12 months, InfluencerDojo has disclosed the following
                 categories of personal information for a business purpose:
                 </span>
             </p>
@@ -1848,7 +1848,7 @@ export function Privacy () {
                 also opt-out of the sale of your personal information that is
                 collected automatically when you visit the Site by{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contacting us</span>
                 </a>
                 <span style={{ fontWeight: 400 }}>.</span>
@@ -1858,7 +1858,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                You have the right to request that AMAttendees disclose certain
+                You have the right to request that InfluencerDojo disclose certain
                 information to you about our collection and use of your personal
                 information over the past 12 months. Once we receive your request and
                 verify your identity, we will disclose such information to you.
@@ -1869,7 +1869,7 @@ export function Privacy () {
             </p>
             <p>
                 <span style={{ fontWeight: 400 }}>
-                You have the right to request that AMAttendees delete any of your
+                You have the right to request that InfluencerDojo delete any of your
                 personal information that we collected from you and retained, subject
                 to certain exceptions. Once we receive your request and verify your
                 identity, we will delete (and direct our service providers to delete)
@@ -1904,11 +1904,11 @@ export function Privacy () {
                 An authorized agent is a natural person or a business entity
                 registered with the Secretary of State that a Consumer has authorized
                 to act on his or her behalf. When a Consumer uses an authorized agent
-                to submit a request to know or a request to delete, AMAttendees may
+                to submit a request to know or a request to delete, InfluencerDojo may
                 require that the Consumer provide the authorized agent written
                 permission to do so and verify his or her own identity directly with
-                AMAttendees, unless the Consumer has provided the authorized agent
-                with a valid power of attorney. AMAttendees may deny a request from an
+                InfluencerDojo, unless the Consumer has provided the authorized agent
+                with a valid power of attorney. InfluencerDojo may deny a request from an
                 agent that does not submit proof that he or she has been authorized by
                 the Consumer to act on his or her behalf.
                 </span>
@@ -1927,7 +1927,7 @@ export function Privacy () {
                 To exercise the rights described above, please submit a verifiable
                 Consumer request to us{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>here.</span>
                 </a>
             </p>
@@ -1983,7 +1983,7 @@ export function Privacy () {
                 <span style={{ fontWeight: 400 }}>
                 If you have any questions regarding this CCPA Notice, please{" "}
                 </span>
-                <a href="https://amattendees.com/contact-us">
+                <a href="https://InfluencerDojo.com/contact-us">
                 <span style={{ fontWeight: 400 }}>contact us directly.</span>
                 </a>
             </p>

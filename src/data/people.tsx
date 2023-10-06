@@ -13,7 +13,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -45,7 +45,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -61,7 +61,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -77,7 +77,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -93,7 +93,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -109,7 +109,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -125,7 +125,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -141,7 +141,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -157,7 +157,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -173,7 +173,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 1,
@@ -189,7 +189,7 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
   {
     id: 13,
@@ -205,6 +205,6 @@ export const people = [
     likesperviews: "100",
     engagement: "100",
     lastupdate: "100",
-    lastvideo: "xx",
+    lastvideo: "1093",
   },
 ]

@@ -57,6 +57,86 @@ export function PricingTable({
         </div>
       )}
       <div className={cn("grid gap-8", "sm:grid-cols-3")}>
+        <div className="p-6 border dark:border-zinc-800 border-zinc-200 rounded-lg">
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-2">
+              <p className="text-sm">Demo</p>
+            </div>
+            <div className="flex items-center py-8">
+              <p className="text-4xl">Free</p>
+            </div>
+            <p className="text-sm opacity-80 py-4 w-full text-center border-y dark:border-zinc-800 border-zinc-200">
+              Demo Plan
+            </p>
+            <div className="flex flex-col py-6 items-start w-full gap-6">
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">Free Demo Access</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">Example Influencers</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">Example Export</p>
+              </div>
+            </div>
+            <div className="w-full">
+              <a href="https://demo.influencerdojo.com" rel="noopener noreferrer" target="_blank">
+                <button className="inline-flex items-center justify-center text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-10 px-4 py-2 rounded-full w-full">
+                  Try Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {plans.map((item, index) => (
           <div
             key={index}
@@ -149,6 +229,86 @@ export function PricingTable({
             </div>
           </div>
         ))}
+        <div className="p-6 border dark:border-zinc-800 border-zinc-200 rounded-lg">
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-2">
+              <p className="text-sm">Enterprise</p>
+            </div>
+            <div className="flex items-center py-8">
+              <p className="text-4xl">Contact Us</p>
+            </div>
+            <p className="text-sm opacity-80 py-4 w-full text-center border-y dark:border-zinc-800 border-zinc-200">
+              Premium Plan
+            </p>
+            <div className="flex flex-col py-6 items-start w-full gap-6">
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">10K+ Curated Leads</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">Unlimited Data Requests</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-4 h-4 bg-emerald-600 dark:text-black text-white rounded-full grid place-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={14}
+                    height={14}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-check"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="text-sm">Custom Feature Requests</p>
+              </div>
+            </div>
+            <div className="w-full">
+              <a href="mailto:support@influencerdojo.com">
+                <button className="inline-flex items-center justify-center text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-10 px-4 py-2 rounded-full w-full">
+                  Contact Us
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
