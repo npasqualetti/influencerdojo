@@ -70,6 +70,18 @@ export function PeopleDataTable<TData, TValue>({
       rowSelection,
     },
   });
+  React.useEffect(() => {
+    table.setColumnVisibility({
+      description: false,
+      lastvideo: false,
+      superchat: false,
+      engagement: false,
+      videos: false,
+      viewsper7days: false,
+      likesperviews: false,
+      tags: false,
+    });
+  }, [table]);
 
   return (
     <div>
