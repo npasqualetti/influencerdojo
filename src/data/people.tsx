@@ -10406,7 +10406,7 @@ export const people = [
   {
     "channelurl": "https://youtube.com/channel/UCfgaAqf8GIjWc4KG7ZzIKgQ",
     "channel": "Jules Walcott",
-    "description": "✉️: Jesse.beer@themgmtcompany.com\nJules Walcott is already known for her silky and powerful vocals. Originally the frontwoman of a New York-based hard rock band, Jules decided to combine her natural rock roots and passion for pop music to create a solo pop endeavor in the first quarter of 2018. \n \nIn 2019, she released her debut EP 'Dreams And Demons,' which fuses together her rock origins and her now-familiar grim synth pop sounds. The six-track collection features the lead single 'Alive,' as well as the radio-friendly, electro-rock track 'Mad'. \n \nJules continued music in the pandemic of 2020, releasing 4 singles & making waves on the highly popular app TikTok. In just one year, she accumulated over 1 million followers on Tiktok for creating covers of popular songs & sharing her stories behind her songs.\n \nFresh off of her first National tour with High School Nation & tiktok, Jules continues to solidify her name as a rising pop contender. Remember her name. 🖤",
+    "description": "Jules Walcott is already known for her silky and powerful vocals.",
     "email": "Jesse.beer@themgmtcompany.com",
     "verified": "True",
     "category": "Music",
@@ -22682,7 +22682,7 @@ export const people = [
   {
     "channelurl": "https://youtube.com/channel/UCb-2q-7eWjd_M2UsEOdx4KA",
     "channel": "Jimmy & Natalie",
-    "description": "Hey! We’re Jimmy & Natalie and we live full-time on the road. 🚐🏔\n\nOur journey started in early 2021, when we bought an old school bus and converted it into a #skoolie so that we could explore the States. After one year of making memories in our bus, Saguaro, we made the tough decision to sell her and downsize to our second conversion.   \n\nTwo long months later, we completed our van conversion, Pancake! We now get to experience #vanlife as we travel throughout North America. There’s so much to see and experience, and we’d love for you to come along for the ride!\n\nSUBSCRIBE and join us every Monday for a new video!\n\nbusiness inquiries: jimmyandnatalie@influint.co",
+    "description": "Hey! We’re Jimmy & Natalie and we live full-time on the road. 🚐🏔",
     "email": "jimmyandnatalie@influint.co",
     "verified": "True",
     "category": "TravelEvent",
