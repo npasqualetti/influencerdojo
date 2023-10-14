@@ -50,22 +50,6 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Platform
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "platform",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
           Channel
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>

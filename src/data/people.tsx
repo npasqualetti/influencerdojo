@@ -23943,7 +23943,7 @@
     "platform": "YouTube",
     "channelurl": "https://youtube.com/channel/UCb-2q-7eWjd_M2UsEOdx4KA",
     "channel": "Jimmy & Natalie",
-    "description": "Hey! We’re Jimmy & Natalie and we live full-time on the road. 🚐🏔  Our journey started in early 2021, when we bought an old school bus and converted it into a #skoolie so that we could explore the States. After one year of making memories in our bus, Saguaro, we made the tough decision to sell her and downsize to our second conversion.     Two long months later, we completed our van conversion, Pancake! We now get to experience #vanlife as we travel throughout North America. There’s so much to see and experience, and we’d love for you to come along for the ride!  SUBSCRIBE and join us every Monday for a new video!  business inquiries: jimmyandnatalie@influint.co",
+    "description": "Hey! We’re Jimmy & Natalie and we live full-time on the road. 🚐🏔  Our journey started in early 2021, when we bought an old school bus and converted it into a #skoolie so that we could explore the States. After one year of making memories in our bus, Saguaro, we made the tough decision to sell her and downsize to our second conversion. Two long months later, we completed our van conversion, Pancake! We now get to experience #vanlife as we travel throughout North America. There’s so much to see and experience, and we’d love for you to come along for the ride!  SUBSCRIBE and join us every Monday for a new video!  business inquiries: jimmyandnatalie@influint.co",
     "email": "jimmyandnatalie@influint.co",
     "verified": "True",
     "category": "TravelEvent",
