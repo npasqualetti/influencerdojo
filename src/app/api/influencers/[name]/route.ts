@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 import { type NextRequest } from 'next/server'
 import { people } from '@/data/people'
 
