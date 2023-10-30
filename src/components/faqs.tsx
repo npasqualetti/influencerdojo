@@ -19,19 +19,19 @@ import {
                 <AccordionItem value="item-1">
                 <AccordionTrigger>What is Influencer Dojo, and how does it work?</AccordionTrigger>
                 <AccordionContent>
-                Influencer Dojo is a comprehensive collection of carefully curated influencer profiles spanning various niches and industries. It works by providing you with access to over 10,000 influential figures who can help you boost your brand&aposs visibility and engagement.
+                Influencer Dojo is a comprehensive collection of carefully curated influencer profiles spanning various niches and industries. It works by providing you with access to over 10,000 influential figures who can help you boost your brand's visibility and engagement.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
                 <AccordionTrigger>Why is a low bounce rate important for my outreach campaigns?</AccordionTrigger>
                 <AccordionContent>
-                A low bounce rate is crucial because it ensures that the messages you send through our database reach their intended recipients&apos inboxes. This means your outreach efforts are more likely to result in successful collaborations, increasing your chances of engagement.
+                A low bounce rate is crucial because it ensures that the messages you send through our database reach their intended recipients' inboxes. This means your outreach efforts are more likely to result in successful collaborations, increasing your chances of engagement.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
                 <AccordionTrigger>What makes your leads different from other databases?</AccordionTrigger>
                 <AccordionContent>
-                Our leads are handpicked to ensure quality over quantity. We prioritize relevance by aligning influencers with your industry, target audience, and brand values. You won&apost have to sift through irrelevant profiles, saving you time and effort.
+                Our leads are handpicked to ensure quality over quantity. We prioritize relevance by aligning influencers with your industry, target audience, and brand values. You won't have to sift through irrelevant profiles, saving you time and effort.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
@@ -49,7 +49,7 @@ import {
                 <AccordionItem value="item-6">
                 <AccordionTrigger>What if I need specific data or information about certain influencers?</AccordionTrigger>
                 <AccordionContent>
-                We&aposve got you covered! Our database offers a custom data request feature. You can tailor your searches to fit your brand&aposs unique requirements and objectives, ensuring you have all the information you need to make informed decisions for your campaigns.
+                We've got you covered! Our database offers a custom data request feature. You can tailor your searches to fit your brand's unique requirements and objectives, ensuring you have all the information you need to make informed decisions for your campaigns.
                 </AccordionContent>
                 </AccordionItem>
             </Accordion>
