@@ -72,14 +72,8 @@ export function PeopleDataTable<TData, TValue>({
   });
   React.useEffect(() => {
     table.setColumnVisibility({
-      description: false,
-      lastvideo: false,
-      superchat: false,
-      engagement: false,
-      videos: false,
-      viewsper7days: false,
-      likesperviews: false,
-      tags: false,
+      Description: false,
+      URL: false,
     });
   }, [table]);
 
@@ -88,12 +82,12 @@ export function PeopleDataTable<TData, TValue>({
       {/* input */}
       <div className="flex items-center py-4">
         <Input
-          placeholder="Filter Channel Names"
+          placeholder="Find in Description"
           value={
-            (table.getColumn("channel")?.getFilterValue() as string) || ""
+            (table.getColumn("Description")?.getFilterValue() as string) || ""
           }
           onChange={(e) => {
-            table.getColumn("channel")?.setFilterValue(e.target.value);
+            table.getColumn("Description")?.setFilterValue(e.target.value);
           }}
           className="max-w-sm"
         />
