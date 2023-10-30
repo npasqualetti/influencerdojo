@@ -50,12 +50,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Person ID
+          Platform
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
-    },
-    accessorKey: "id",
+    },    
+    accessorKey: "Platform",
   },
   {
     header: ({ column }) => {
@@ -66,12 +66,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Channel
+          Username
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "channel",
+    accessorKey: "Username",
   },
   {
     header: ({ column }) => {
@@ -82,12 +82,76 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Description
+          URL
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "description",
+    accessorKey: "URL",
+  },
+  {
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => {
+            column.toggleSorting(column.getIsSorted() === "asc");
+          }}
+        >
+          Followers
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },    
+    accessorKey: "Followers",
+  },
+  {
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => {
+            column.toggleSorting(column.getIsSorted() === "asc");
+          }}
+        >
+          Posts
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },    
+    accessorKey: "Posts",
+  },
+  {
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => {
+            column.toggleSorting(column.getIsSorted() === "asc");
+          }}
+        >
+          Views
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },    
+    accessorKey: "Views",
+  },
+  {
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => {
+            column.toggleSorting(column.getIsSorted() === "asc");
+          }}
+        >
+          Likes
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },    
+    accessorKey: "Likes",
   },
   {
     header: ({ column }) => {
@@ -103,7 +167,7 @@ export const columns: ColumnDef<Person>[] = [
         </Button>
       );
     },    
-    accessorKey: "email",
+    accessorKey: "Email",
   },
   {
     header: ({ column }) => {
@@ -114,12 +178,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Tags
+          Description
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "tags",
+    accessorKey: "Description",
   },
   {
     header: ({ column }) => {
@@ -130,12 +194,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Subscribers
+          Growth %
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "subscribers",
+    accessorKey: "Growth",
   },
   {
     header: ({ column }) => {
@@ -146,12 +210,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Videos
+          Engagement %
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "videos",
+    accessorKey: "Engagement",
   },
   {
     header: ({ column }) => {
@@ -162,92 +226,12 @@ export const columns: ColumnDef<Person>[] = [
             column.toggleSorting(column.getIsSorted() === "asc");
           }}
         >
-          Views/7Days
+          Location
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },    
-    accessorKey: "viewsper7days",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
-          Superchat Pay
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "superchat",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
-          Likes/Views
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "likesperviews",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
-          Engagement
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "engagement",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
-          Last Update
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "lastupdate",
-  },
-  {
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          onClick={() => {
-            column.toggleSorting(column.getIsSorted() === "asc");
-          }}
-        >
-          Last Video
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      );
-    },    
-    accessorKey: "lastvideo",
+    accessorKey: "Location",
   },
   {
     id: "actions",
