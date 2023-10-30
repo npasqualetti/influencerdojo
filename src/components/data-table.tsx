@@ -70,26 +70,30 @@ export function PeopleDataTable<TData, TValue>({
       rowSelection,
     },
   });
+  React.useEffect(() => {
+    table.setColumnVisibility({
+      Description: false,
+      URL: false,
+    });
+  }, [table]);
 
   return (
     <div>
       {/* input */}
       <div className="flex items-center py-4">
         <Input
-          placeholder="Filter Channel Names"
+          placeholder="Find in Description"
           value={
-            (table.getColumn("channel")?.getFilterValue() as string) || ""
+            (table.getColumn("Description")?.getFilterValue() as string) || ""
           }
           onChange={(e) => {
-            table.getColumn("channel")?.setFilterValue(e.target.value);
+            table.getColumn("Description")?.setFilterValue(e.target.value);
           }}
           className="max-w-sm"
         />
         <DropdownMenu>
-          <DropdownMenuTrigger className="ml-4">
-            <Button variant="outline">
-              Columns
-            </Button>
+          <DropdownMenuTrigger className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-10 px-4 py-2 ml-4">
+            Columns
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             {table
@@ -111,58 +115,56 @@ export function PeopleDataTable<TData, TValue>({
               })}
           </DropdownMenuContent>
         </DropdownMenu>
-                <Button onClick={() => downloadToExcel(table.getSelectedRowModel().rows)} className="ml-4">
+        <Button onClick={() => downloadToExcel(table.getSelectedRowModel().rows)} className="ml-4">
           Export to Excel
         </Button>
       </div>
 
       {/* table */}
-      <div className="rounded-md">
-        <Table>
-          <TableHeader>
-            {table.getHeaderGroups().map((headerGroup) => {
-              return (
-                <TableRow key={headerGroup.id}>
-                  {headerGroup.headers.map((header) => {
-                    return (
-                      <TableHead key={header.id}>
-                        {flexRender(
-                          header.column.columnDef.header,
-                          header.getContext()
-                        )}
-                      </TableHead>
-                    );
-                  })}
-                </TableRow>
-              );
-            })}
-          </TableHeader>
-
-          <TableBody>
-            {table.getRowModel().rows?.length ? (
-              table.getRowModel().rows.map((row) => (
-                <TableRow key={row.id}>
-                  {row.getVisibleCells().map((cell) => (
-                    <TableCell key={cell.id}>
+      <Table>
+        <TableHeader>
+          {table.getHeaderGroups().map((headerGroup) => {
+            return (
+              <TableRow key={headerGroup.id}>
+                {headerGroup.headers.map((header) => {
+                  return (
+                    <TableHead key={header.id}>
                       {flexRender(
-                        cell.column.columnDef.cell,
-                        cell.getContext()
+                        header.column.columnDef.header,
+                        header.getContext()
                       )}
-                    </TableCell>
-                  ))}
-                </TableRow>
-              ))
-            ) : (
-              <TableRow>
-                <div className="flex items-center gap-2 animate-pulse mx-auto">
-                  <Loader2 className="animate-spin" size={18} />
-                  <p className="text-sm font-mono">Loading..</p>
-                </div>
+                    </TableHead>
+                  );
+                })}
               </TableRow>
-            )}
-          </TableBody>
-        </Table>
-      </div>
+            );
+          })}
+        </TableHeader>
+
+        <TableBody>
+          {table.getRowModel().rows?.length ? (
+            table.getRowModel().rows.map((row) => (
+              <TableRow key={row.id}>
+                {row.getVisibleCells().map((cell) => (
+                  <TableCell key={cell.id}>
+                    {flexRender(
+                      cell.column.columnDef.cell,
+                      cell.getContext()
+                    )}
+                  </TableCell>
+                ))}
+              </TableRow>
+            ))
+          ) : (
+            <TableRow>
+              <TableCell className='mx-auto items-center'>
+                <Loader2 className="animate-spin" size={18} />
+                <p className="text-sm font-mono">Loading..</p>
+              </TableCell>
+            </TableRow>
+          )}
+        </TableBody>
+      </Table>
       {/* pagination */}
       <div className="flex items-center justify-start space-x-2 py-4">
         <Button
