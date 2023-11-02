@@ -38,8 +38,9 @@ export default async function Page({ params: { id } }: { params: { id: string } 
 
   const checkout = await stripe.checkout.sessions.create({
     customer: cus_id,
+    allow_promotion_codes: true,
     success_url: serverEnv.NEXTAUTH_URL + "/dashboard?checkout=success",
-    cancel_url: serverEnv.NEXTAUTH_URL + "/dashboard?checkout=cancelled",
+    cancel_url: serverEnv.NEXTAUTH_URL + "/onboarding/plan",
     mode: "subscription",
     line_items: [
       {

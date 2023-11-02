@@ -28,28 +28,6 @@ export function PlanSelector({
         <p className="dark:text-white text-center text-black text-lg font-medium">Choose Plan</p>
       </div>
       <div className="grid gap-4 grid-cols-1">
-        <div
-          onClick={() => setSelected(null)}
-          className={cn(
-            "p-4 cursor-pointer border dark:border-zinc-800 border-zinc-200 rounded-lg",
-            {
-              "dark:border-emerald-500 border-emerald-400":
-                selected == null,
-            }
-          )}
-        >
-          <div className="flex justify-between items-start">
-            <div className="flex flex-col">
-              <p className="text-sm">{"Free"}</p>
-              <p className="text-sm opacity-80 w-full text-center">
-                The default free plan
-              </p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-lg">Free</p>
-            </div>
-          </div>
-        </div>
         {plans.map((item, index) => (
           <div
             key={index}
@@ -94,7 +72,7 @@ export function PlanSelector({
       <div>
         {selected == null ? (
           <>
-            <Link href="/dashboard">
+            <Link href="/onboarding/plan">
               <Button className="w-full" type="submit" size={"sm"}>
                 Continue
               </Button>
