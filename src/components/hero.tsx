@@ -35,14 +35,15 @@ export function Hero() {
           </div>
         </div>
         <div className="flex flex-col relative sm:gap-0 gap-y-7 my-10 sm:my-0">
-          <div style={{}} className="">
-            <iframe
-              className="w-full min-h-[275px] sm:min-h-[325px]"
-              src="https://www.youtube.com/embed/B22lgdajizQ?si=6Avmd5j2mZrqulsf&start=1"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen=""
-            />
+          <div className={"relative z-10"}>
+            <div className="max-w-7xl z-10 border border-white/30 m-auto p-4 sm:p-8 bg-white/20 w-full rounded-3xl">
+              <img
+                src="/assets/dashboard.png"
+                className="rounded-xl bg-black p-4 z-10"
+                alt="Hero Image"
+              />
+            </div>
+            <div className="top-20 bottom-20 w-full bg-gradient-conic from-rose-500 via-violet-400 to-amber-500 absolute z-[-1]" />
           </div>
         </div>
       </div>

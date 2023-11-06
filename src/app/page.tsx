@@ -21,16 +21,6 @@ export default async function Home() {
       />
       <Header />
       <Hero />
-      <div className={"relative z-10"}>
-        <div className="max-w-7xl z-10 border border-white/30 m-auto p-4 sm:p-8 bg-white/20 w-full rounded-3xl">
-          <img
-            src="/assets/dashboard.png"
-            className="rounded-xl bg-black p-4 z-10"
-            alt="Hero Image"
-          />
-        </div>
-        <div className="top-20 bottom-20 w-full bg-gradient-conic from-rose-500 via-violet-400 to-amber-500 absolute z-[-1]" />
-      </div>
       <Features />
       <Info />
       <Testimonial />
