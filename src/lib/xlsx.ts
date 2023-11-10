@@ -26,7 +26,7 @@ export function downloadToExcel(selected) {
           { label: "Engagement", value: "Engagement" },
           { label: "Location", value: "Location" },
         ],
-        content: originalObjects.slice(0,10),
+        content: originalObjects,
       },
     ];
     
